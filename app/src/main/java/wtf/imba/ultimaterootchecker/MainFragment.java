@@ -11,7 +11,6 @@ import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
@@ -23,7 +22,6 @@ public class MainFragment extends ListFragment {
 
     private List<String> names = Arrays.asList(
             "su Managers",
-            "rooted Apps",
             "su Binary",
             "busybox Binary",
             "dangerous Build.prop values",
@@ -32,7 +30,7 @@ public class MainFragment extends ListFragment {
             "check Su Exists",
             "detect Root Hiders",
             "Xposed or Cydia"
-    );;
+    );
 
 
     public static MainFragment newInstance() {
@@ -102,7 +100,7 @@ public class MainFragment extends ListFragment {
             }).setIcon(android.R.drawable.ic_dialog_alert);
             if (state) {
                 builder.setMessage("Your device ROOTED");
-            } else {0
+            } else {
                 builder.setMessage("Your device NOT ROOTED");
             }
             builder.show();
