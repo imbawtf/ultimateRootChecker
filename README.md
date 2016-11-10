@@ -5,6 +5,8 @@ https://play.google.com/store/apps/details?id=wtf.imba.ultimaterootchecker
 
 http://forum.xda-developers.com/xposed/discussion-ultimate-root-checking-t3497070
 
+http://4pda.ru/forum/index.php?showtopic=783511
+
 
 We have come across an interesting problem, that renders lost all our labours with such apps as rootCloak, hideRoot (along with personal efforts and accessory methods) and makes us exposed to systems.
 
